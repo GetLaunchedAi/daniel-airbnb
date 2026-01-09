@@ -1,0 +1,15 @@
+{
+  "name": "True Heating and Cooling",
+  "email": "TrueHVAC1@gmail.com",
+  "phone": "586-843-4351",
+  "phoneFormatted": "(586)-843-4351",
+  "address": {
+    "lineOne": "Detroit, Mi",
+    "lineTwo": "",
+    "city": "Detroit",
+    "county": "Mi",
+    "postcode": "",
+    "mapLink": ""
+  },
+  "domain": "www.website.com"
+}

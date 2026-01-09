@@ -1,0 +1,74 @@
+---
+layout: 'base.html'
+description: "Learn about True Heating and Cooling, your trusted Michigan mechanical contractors. NATE and EPA certified experts specializing in energy-efficient HVAC solutions."
+metaTitle: 'True Heating and Cooling'
+tagTitle: 'About Us'
+preloadImg: '/images/aboutus-hero-1920w.webp'
+preloadCSS: '/css/about.css'
+permalink: 'about/'
+eleventyNavigation:
+  key: About Us
+  order: 300
+---
+
+<!-- Enter html code below -->
+
+<!-- ============================================ -->
+<!--                    LANDING                   -->
+<!-- ============================================ -->
+
+<section id="int-hero">
+  <h1 id="home-h" class="expand-in">About Us</h1>
+  {% image './src/images/aboutus-hero.jpg', 'HVAC unit outside', '', 'lazy', '(max-width: 850px) 850px, 1920px'%}
+</section>
+
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="sbs">
+  <div class="cs-container">
+    <!-- Left Image Section -->
+    <div class="cs-left fx slide-right staggered-m" style="--i:1">
+      {% image './src/images/about-us-sq.jpg', 'HVAC equipment', 'cs-picture cs-picture1', 'lazy'%}
+      {% image './src/images/hvac-repair.jpg', 'HVAC technician at work', 'cs-picture cs-picture2', 'lazy'%}
+    </div>
+    <!-- Right Content Section-->
+    <div class="cs-right fx slide-left staggered-m" style="--i:2">
+      <span class="cs-topper">About Us</span>
+      <h2 class="cs-title">About True Heating and Cooling</h2>
+      <p class="cs-text">
+        True Heating and Cooling is a team of dedicated Michigan Mechanical contractors (classes 1, 2, 5, and 7) committed to providing top-tier HVAC services. With a focus on energy efficiency and customer satisfaction, we bring expert solutions to every home and business across Michigan.
+      </p>
+      <p class="cs-text">
+        We are proud to partner with DTE and Consumer Energy to provide our clients with the best rebates and energy-saving programs. Our technicians are NATE certified and EPA 608 Universal certified, ensuring that every job is handled with the highest level of professionalism and expertise.
+      </p>
+      <div class="cs-flex-group">
+        <p class="cs-flex-p">
+          "No Problem, Only Solution"
+        </p>
+        <span class="cs-name">True Heating and Cooling Team</span>
+        <span class="cs-job">HVAC Specialists</span>
+        <img class="cs-quote-icon" loading="lazy" decoding="async"
+          src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg" alt="gavel" width="136"
+          height="77">
+      </div>
+      <a href="" class="button-solid">More About Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--             Final Call to Action             -->
+<!-- ============================================ -->
+
+<section id="cta">
+  <div class="container">
+    <h2 class="title">Get It Done <br> With Us Today</h2>
+    <p>
+      Need an emergency repair or a free estimate on a new system? Contact True Heating and Cooling today for fast, reliable service.
+    </p>
+    <a href="/contact" class="button-solid">Free Estimate</a>
+  </div>
+  {% image './src/images/about-bottom.jpg', 'HVAC unit', '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920'%}
+</section>
