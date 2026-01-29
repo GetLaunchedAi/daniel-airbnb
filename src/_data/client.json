@@ -1,15 +1,15 @@
 {
-  "name": "True Heating and Cooling",
-  "email": "TrueHVAC1@gmail.com",
-  "phone": "586-843-4351",
-  "phoneFormatted": "(586)-843-4351",
+  "name": "Daniels Airbnb",
+  "email": "bookings@danielsairbnb.com",
+  "phone": "555-123-4567",
+  "phoneFormatted": "(555) 123-4567",
   "address": {
-    "lineOne": "Detroit, Mi",
+    "lineOne": "Orlando, FL",
     "lineTwo": "",
-    "city": "Detroit",
-    "county": "Mi",
-    "postcode": "",
+    "city": "Orlando",
+    "county": "FL",
+    "postcode": "32801",
     "mapLink": ""
   },
-  "domain": "www.website.com"
+  "domain": "www.danielsairbnb.com"
 }

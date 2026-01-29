@@ -1,4 +1,4 @@
-Business Name:   True Heating and Cooling
+Business Name:   Daniels Airbnb
 
 Current Website:   NA
 
@@ -18,7 +18,7 @@ Emergency service calls
 Energy Efficiency
 Same day to next day service
 
-Desired Domain:   True Heating & Cooling
+Desired Domain:   Daniels Airbnb
 
 Link to Facebook: https://www.facebook.com/groups/826132354205808/user/61584500835132/
 

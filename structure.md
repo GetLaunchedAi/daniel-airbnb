@@ -1,12 +1,12 @@
 # Project File Structure
 
-This document outlines the complete file structure of the True Heating and Cooling HVAC website project and provides a one-sentence summary of each file's purpose.
+This document outlines the complete file structure of the Daniels Airbnb HVAC website project and provides a one-sentence summary of each file's purpose.
 
 ## Root Directory
 
 - **.eleventy.js** - Eleventy configuration file that sets up the static site generator, image optimization, navigation plugins, and build settings.
 - **.gitignore** - Git ignore file that excludes node_modules, public, .cache, and ImageRetriever folders from version control.
-- **info.md** - Client information document containing business details, contact info, services, and unique selling points for True Heating and Cooling.
+- **info.md** - Client information document containing business details, contact info, services, and unique selling points for Daniels Airbnb.
 - **LICENSE.md** - Creative Commons CC0 1.0 Universal license file that releases the code into the public domain.
 - **package-lock.json** - Automatically generated file that locks dependency versions for consistent npm installations.
 - **package.json** - NPM package configuration defining project dependencies (Eleventy, image plugin, navigation plugin) and build scripts.
@@ -117,7 +117,7 @@ This document outlines the complete file structure of the True Heating and Cooli
 - **contact.html** - Contact page with form, email, phone, location, and Facebook link information.
 - **projects.html** - Projects gallery page displaying a grid of completed HVAC installation and repair work.
 - **reviews.html** - Reviews page showcasing customer testimonials with ratings and profile avatars.
-- **services.html** - Main services overview page listing all HVAC services offered by True Heating and Cooling.
+- **services.html** - Main services overview page listing all HVAC services offered by Daniels Airbnb.
 
 #### src/pages/servicepages/
 - **air-conditioners.html** - Dedicated service page for air conditioning installation, repair, and maintenance services.
@@ -133,4 +133,4 @@ This document outlines the complete file structure of the True Heating and Cooli
 
 ## Project Summary
 
-This is an Eleventy-based static site for True Heating and Cooling, a Michigan HVAC company offering furnace, boiler, air conditioning, heat pump, and hot water tank services in the Detroit area. The site uses Nunjucks templating, includes dark mode support, features responsive image optimization, and is set up for deployment on Netlify with optional CMS integration.
+This is an Eleventy-based static site for Daniels Airbnb, a Michigan HVAC company offering furnace, boiler, air conditioning, heat pump, and hot water tank services in the Orlando area. The site uses Nunjucks templating, includes dark mode support, features responsive image optimization, and is set up for deployment on Netlify with optional CMS integration.
